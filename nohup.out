@@ -1,0 +1,456 @@
+Looking in classpath from com.intellij.util.lang.UrlClassLoader@2077d4de for /com/sun/jna/linux-x86-64/libjnidispatch.so
+Found library resource at jar:file:/home/hadoop/Android/android-studio/lib/jna.jar!/com/sun/jna/linux-x86-64/libjnidispatch.so
+Trying /home/hadoop/.AndroidStudio2.3/system/tmp/jna8142269829061098670.tmp
+Found jnidispatch at /home/hadoop/.AndroidStudio2.3/system/tmp/jna8142269829061098670.tmp
+[  10333]   WARN - ins.android.sdk.AndroidSdkData - Premature end of file. 
+org.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.xml.sax.helpers.XMLFilterImpl.parse(XMLFilterImpl.java:357)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:123)
+	at com.android.repository.impl.meta.SchemaModuleUtil.unmarshal(SchemaModuleUtil.java:196)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackage(LocalRepoLoaderImpl.java:301)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackages(LocalRepoLoaderImpl.java:159)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.getPackages(LocalRepoLoaderImpl.java:124)
+	at com.android.repository.impl.manager.RepoManagerImpl$LoadTask.run(RepoManagerImpl.java:517)
+	at com.android.repository.api.RepoManager$DummyProgressRunner.runSyncWithProgress(RepoManager.java:397)
+	at com.android.repository.impl.manager.RepoManagerImpl.load(RepoManagerImpl.java:364)
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:290)
+	at com.android.sdklib.repository.AndroidSdkHandler$RepoConfig.createRepoManager(AndroidSdkHandler.java:718)
+	at com.android.sdklib.repository.AndroidSdkHandler.getSdkManager(AndroidSdkHandler.java:295)
+	at com.android.sdklib.repository.AndroidSdkHandler.getAndroidTargetManager(AndroidSdkHandler.java:330)
+	at org.jetbrains.android.sdk.AndroidSdkData.findTargetByHashString(AndroidSdkData.java:216)
+	at org.jetbrains.android.sdk.AndroidSdkAdditionalData.getBuildTarget(AndroidSdkAdditionalData.java:126)
+	at org.jetbrains.android.sdk.AndroidPlatform.parse(AndroidPlatform.java:90)
+	at org.jetbrains.android.sdk.AndroidSdkAdditionalData.getAndroidPlatform(AndroidSdkAdditionalData.java:137)
+	at org.jetbrains.android.sdk.AndroidPlatform.getInstance(AndroidPlatform.java:68)
+	at com.android.tools.idea.sdk.IdeSdks.getEligibleAndroidSdks(IdeSdks.java:518)
+	at com.android.tools.idea.sdk.IdeSdks.getFirstAndroidSdk(IdeSdks.java:170)
+	at com.android.tools.idea.sdk.IdeSdks.getAndroidSdkPath(IdeSdks.java:96)
+	at com.android.tools.idea.startup.GradleSpecificInitializer.setupSdks(GradleSpecificInitializer.java:278)
+	at com.android.tools.idea.startup.GradleSpecificInitializer.run(GradleSpecificInitializer.java:115)
+	at com.android.tools.idea.AndroidInitialConfigurator.activateAndroidStudioInitializerExtensions(AndroidInitialConfigurator.java:198)
+	at com.android.tools.idea.AndroidInitialConfigurator.<init>(AndroidInitialConfigurator.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.defaults.InstantiatingComponentAdapter.newInstance(InstantiatingComponentAdapter.java:193)
+	at org.picocontainer.defaults.ConstructorInjectionComponentAdapter$1.run(ConstructorInjectionComponentAdapter.java:220)
+	at org.picocontainer.defaults.ThreadLocalCyclicDependencyGuard.observe(ThreadLocalCyclicDependencyGuard.java:53)
+	at org.picocontainer.defaults.ConstructorInjectionComponentAdapter.getComponentInstance(ConstructorInjectionComponentAdapter.java:248)
+	at com.intellij.util.pico.CachingConstructorInjectionComponentAdapter.getComponentInstance(CachingConstructorInjectionComponentAdapter.java:58)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:495)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:429)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$3.run(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:494)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:443)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:155)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:436)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:384)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:196)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:47)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:358)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[  10340]   WARN - ins.android.sdk.AndroidSdkData - Found corrupted package.xml at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml 
+[  10392]   WARN - ins.android.sdk.AndroidSdkData - Invalid package.xml found at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml and failed to parse using fallback. 
+[  10395]   WARN - ins.android.sdk.AndroidSdkData - Premature end of file. 
+org.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.xml.sax.helpers.XMLFilterImpl.parse(XMLFilterImpl.java:357)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:123)
+	at com.android.repository.impl.meta.SchemaModuleUtil.unmarshal(SchemaModuleUtil.java:196)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackage(LocalRepoLoaderImpl.java:301)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackages(LocalRepoLoaderImpl.java:159)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.getPackages(LocalRepoLoaderImpl.java:124)
+	at com.android.repository.impl.manager.RepoManagerImpl$LoadTask.run(RepoManagerImpl.java:517)
+	at com.android.repository.api.RepoManager$DummyProgressRunner.runSyncWithProgress(RepoManager.java:397)
+	at com.android.repository.impl.manager.RepoManagerImpl.load(RepoManagerImpl.java:364)
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:290)
+	at com.android.sdklib.repository.AndroidSdkHandler$RepoConfig.createRepoManager(AndroidSdkHandler.java:718)
+	at com.android.sdklib.repository.AndroidSdkHandler.getSdkManager(AndroidSdkHandler.java:295)
+	at com.android.sdklib.repository.AndroidSdkHandler.getAndroidTargetManager(AndroidSdkHandler.java:330)
+	at org.jetbrains.android.sdk.AndroidSdkData.findTargetByHashString(AndroidSdkData.java:216)
+	at org.jetbrains.android.sdk.AndroidSdkAdditionalData.getBuildTarget(AndroidSdkAdditionalData.java:126)
+	at org.jetbrains.android.sdk.AndroidPlatform.parse(AndroidPlatform.java:90)
+	at org.jetbrains.android.sdk.AndroidSdkAdditionalData.getAndroidPlatform(AndroidSdkAdditionalData.java:137)
+	at org.jetbrains.android.sdk.AndroidPlatform.getInstance(AndroidPlatform.java:68)
+	at com.android.tools.idea.sdk.IdeSdks.getEligibleAndroidSdks(IdeSdks.java:518)
+	at com.android.tools.idea.sdk.IdeSdks.getFirstAndroidSdk(IdeSdks.java:170)
+	at com.android.tools.idea.sdk.IdeSdks.getAndroidSdkPath(IdeSdks.java:96)
+	at com.android.tools.idea.startup.GradleSpecificInitializer.setupSdks(GradleSpecificInitializer.java:278)
+	at com.android.tools.idea.startup.GradleSpecificInitializer.run(GradleSpecificInitializer.java:115)
+	at com.android.tools.idea.AndroidInitialConfigurator.activateAndroidStudioInitializerExtensions(AndroidInitialConfigurator.java:198)
+	at com.android.tools.idea.AndroidInitialConfigurator.<init>(AndroidInitialConfigurator.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.defaults.InstantiatingComponentAdapter.newInstance(InstantiatingComponentAdapter.java:193)
+	at org.picocontainer.defaults.ConstructorInjectionComponentAdapter$1.run(ConstructorInjectionComponentAdapter.java:220)
+	at org.picocontainer.defaults.ThreadLocalCyclicDependencyGuard.observe(ThreadLocalCyclicDependencyGuard.java:53)
+	at org.picocontainer.defaults.ConstructorInjectionComponentAdapter.getComponentInstance(ConstructorInjectionComponentAdapter.java:248)
+	at com.intellij.util.pico.CachingConstructorInjectionComponentAdapter.getComponentInstance(CachingConstructorInjectionComponentAdapter.java:58)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:495)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:429)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$3.run(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:494)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:443)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:155)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:436)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:384)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:196)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:47)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:358)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[  10397]   WARN - ins.android.sdk.AndroidSdkData - Found corrupted package.xml at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml 
+[  10398]   WARN - ins.android.sdk.AndroidSdkData - Invalid package.xml found at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml and failed to parse using fallback. 
+[  12057]   WARN - dea.updater.SdkComponentSource - Premature end of file. 
+org.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.xml.sax.helpers.XMLFilterImpl.parse(XMLFilterImpl.java:357)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:123)
+	at com.android.repository.impl.meta.SchemaModuleUtil.unmarshal(SchemaModuleUtil.java:196)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackage(LocalRepoLoaderImpl.java:301)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackages(LocalRepoLoaderImpl.java:159)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.getPackages(LocalRepoLoaderImpl.java:124)
+	at com.android.repository.impl.manager.RepoManagerImpl$LoadTask.run(RepoManagerImpl.java:517)
+	at com.android.repository.api.RepoManager$DummyProgressRunner.runSyncWithProgress(RepoManager.java:397)
+	at com.android.repository.impl.manager.RepoManagerImpl.load(RepoManagerImpl.java:364)
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:290)
+	at com.android.sdklib.repository.AndroidSdkHandler$RepoConfig.createRepoManager(AndroidSdkHandler.java:718)
+	at com.android.sdklib.repository.AndroidSdkHandler.getSdkManager(AndroidSdkHandler.java:295)
+	at com.android.tools.idea.updater.SdkComponentSource.getRepoManager(SdkComponentSource.java:94)
+	at com.android.tools.idea.updater.SdkComponentSource.initIfNecessary(SdkComponentSource.java:65)
+	at com.android.tools.idea.updater.SdkComponentSource.getComponents(SdkComponentSource.java:141)
+	at com.android.tools.idea.updater.SdkComponentSource.getAvailableVersions(SdkComponentSource.java:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.updateExternal(UpdateChecker.kt:316)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:153)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:69)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:98)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:307)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[  12058]   WARN - dea.updater.SdkComponentSource - Found corrupted package.xml at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml 
+[  12079]   WARN - dea.updater.SdkComponentSource - Invalid package.xml found at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml and failed to parse using fallback. 
+[  12095]   WARN - dea.updater.SdkComponentSource - Premature end of file. 
+org.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.xml.sax.helpers.XMLFilterImpl.parse(XMLFilterImpl.java:357)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:123)
+	at com.android.repository.impl.meta.SchemaModuleUtil.unmarshal(SchemaModuleUtil.java:196)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackage(LocalRepoLoaderImpl.java:301)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackages(LocalRepoLoaderImpl.java:159)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.getPackages(LocalRepoLoaderImpl.java:124)
+	at com.android.repository.impl.manager.RepoManagerImpl$LoadTask.run(RepoManagerImpl.java:517)
+	at com.android.repository.api.RepoManager$DummyProgressRunner.runSyncWithProgress(RepoManager.java:397)
+	at com.android.repository.impl.manager.RepoManagerImpl.load(RepoManagerImpl.java:364)
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:290)
+	at com.android.sdklib.repository.AndroidSdkHandler$RepoConfig.createRepoManager(AndroidSdkHandler.java:718)
+	at com.android.sdklib.repository.AndroidSdkHandler.getSdkManager(AndroidSdkHandler.java:295)
+	at com.android.tools.idea.updater.SdkComponentSource.getRepoManager(SdkComponentSource.java:94)
+	at com.android.tools.idea.updater.SdkComponentSource.initIfNecessary(SdkComponentSource.java:65)
+	at com.android.tools.idea.updater.SdkComponentSource.getComponents(SdkComponentSource.java:141)
+	at com.android.tools.idea.updater.SdkComponentSource.getAvailableVersions(SdkComponentSource.java:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.updateExternal(UpdateChecker.kt:316)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:153)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:69)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:98)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:307)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[  12099]   WARN - dea.updater.SdkComponentSource - Found corrupted package.xml at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml 
+[  12099]   WARN - dea.updater.SdkComponentSource - Invalid package.xml found at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml and failed to parse using fallback. 
+[  12384]   WARN - dea.updater.SdkComponentSource - Premature end of file. 
+org.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.xml.sax.helpers.XMLFilterImpl.parse(XMLFilterImpl.java:357)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:123)
+	at com.android.repository.impl.meta.SchemaModuleUtil.unmarshal(SchemaModuleUtil.java:196)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackage(LocalRepoLoaderImpl.java:301)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackages(LocalRepoLoaderImpl.java:159)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.getPackages(LocalRepoLoaderImpl.java:124)
+	at com.android.repository.impl.manager.RepoManagerImpl$LoadTask.run(RepoManagerImpl.java:517)
+	at com.android.repository.api.RepoManager$DummyProgressRunner.runSyncWithProgress(RepoManager.java:397)
+	at com.android.repository.impl.manager.RepoManagerImpl.load(RepoManagerImpl.java:364)
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:290)
+	at com.android.tools.idea.updater.SdkComponentSource.initIfNecessary(SdkComponentSource.java:74)
+	at com.android.tools.idea.updater.SdkComponentSource.getComponents(SdkComponentSource.java:141)
+	at com.android.tools.idea.updater.SdkComponentSource.getAvailableVersions(SdkComponentSource.java:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.updateExternal(UpdateChecker.kt:316)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:153)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:69)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:98)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:307)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[  12385]   WARN - dea.updater.SdkComponentSource - Found corrupted package.xml at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml 
+[  12452]   WARN - dea.updater.SdkComponentSource - Invalid package.xml found at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml and failed to parse using fallback. 
+[  12460]   WARN - dea.updater.SdkComponentSource - Premature end of file. 
+org.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.xml.sax.helpers.XMLFilterImpl.parse(XMLFilterImpl.java:357)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:123)
+	at com.android.repository.impl.meta.SchemaModuleUtil.unmarshal(SchemaModuleUtil.java:196)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackage(LocalRepoLoaderImpl.java:301)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.parsePackages(LocalRepoLoaderImpl.java:159)
+	at com.android.repository.impl.manager.LocalRepoLoaderImpl.getPackages(LocalRepoLoaderImpl.java:124)
+	at com.android.repository.impl.manager.RepoManagerImpl$LoadTask.run(RepoManagerImpl.java:517)
+	at com.android.repository.api.RepoManager$DummyProgressRunner.runSyncWithProgress(RepoManager.java:397)
+	at com.android.repository.impl.manager.RepoManagerImpl.load(RepoManagerImpl.java:364)
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:290)
+	at com.android.tools.idea.updater.SdkComponentSource.initIfNecessary(SdkComponentSource.java:74)
+	at com.android.tools.idea.updater.SdkComponentSource.getComponents(SdkComponentSource.java:141)
+	at com.android.tools.idea.updater.SdkComponentSource.getAvailableVersions(SdkComponentSource.java:122)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.updateExternal(UpdateChecker.kt:316)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:153)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:69)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:98)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:307)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[  12462]   WARN - dea.updater.SdkComponentSource - Found corrupted package.xml at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml 
+[  12462]   WARN - dea.updater.SdkComponentSource - Invalid package.xml found at /home/hadoop/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml and failed to parse using fallback. 
+[  12893]   WARN - dea.updater.SdkComponentSource - File /home/hadoop/.android/repositories.cfg could not be loaded. 
+[  21352]  ERROR - llij.ide.plugins.PluginManager - com.intellij.openapi.progress.ProcessCanceledException 
+java.lang.RuntimeException: com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:47)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:358)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.checkCanceled(AbstractProgressIndicatorBase.java:130)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorExBase.checkCanceled(AbstractProgressIndicatorExBase.java:192)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.doCheckCanceled(CoreProgressManager.java:131)
+	at com.intellij.openapi.progress.ProgressManager.checkCanceled(ProgressManager.java:206)
+	at com.intellij.openapi.progress.ProgressIndicatorProvider.checkCanceled(ProgressIndicatorProvider.java:48)
+	at com.intellij.psi.impl.PsiManagerImpl.findFile(PsiManagerImpl.java:184)
+	at com.intellij.lang.properties.editor.ResourceBundleEditorProvider.lambda$accept$0(ResourceBundleEditorProvider.java:44)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:859)
+	at com.intellij.lang.properties.editor.ResourceBundleEditorProvider.accept(ResourceBundleEditorProvider.java:44)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl$2.compute(FileEditorProviderManagerImpl.java:94)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl$2.compute(FileEditorProviderManagerImpl.java:88)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:863)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:88)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:818)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$UIBuilder.processFiles(EditorsSplitters.java:861)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$UIBuilder.processFiles(EditorsSplitters.java:816)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$ConfigTreeReader.process(EditorsSplitters.java:807)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.openFiles(EditorsSplitters.java:235)
+	at com.intellij.openapi.fileEditor.impl.OpenFilesActivity.runActivity(OpenFilesActivity.java:35)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.lambda$runPostStartupActivitiesFromExtensions$1(StartupManagerImpl.java:146)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivity(StartupManagerImpl.java:342)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:150)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$openProject$5(ProjectManagerImpl.java:339)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:353)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:413)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:402)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:307)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$9.run(CoreProgressManager.java:384)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$3.run(CoreProgressManager.java:170)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:494)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:443)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:155)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$null$9(ApplicationImpl.java:548)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:307)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[  21363]  ERROR - llij.ide.plugins.PluginManager - Android Studio 2.3.3  Build #AI-162.4069837 
+[  21363]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_112-release 
+[  21363]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+[  21363]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+[  21364]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+[  21364]  ERROR - llij.ide.plugins.PluginManager - Last Action:  
+[  25870]   WARN - roid.tools.ndk.GradleWorkspace - NDK support for project 'Places Ads free' is disabled because the project doesn't contain any valid native configurations. 
+[ 112562]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: Photo.java 
+[ 123567]   WARN - roid.tools.ndk.GradleWorkspace - NDK support for project 'Places' is disabled because the project doesn't contain any valid native configurations. 
+Looking for library 'libnotify.so.4'
+Adding paths from jna.library.path: null
+Trying libnotify.so.4
+Found library 'libnotify.so.4' at libnotify.so.4
+[1160963]   WARN -            #com.android.ddmlib - Failed to finalize session : INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.rahul.placesadsfree signatures do not match the previously installed version; ignoring! 
+[1191675]   WARN -            #com.android.ddmlib - Adb rejected connection to client '18031': device '27b8dcd4' not found 
+[1192686]   WARN -            #com.android.ddmlib - Adb rejected connection to client '18031': device '27b8dcd4' not found 
+[1194673]   WARN -            #com.android.ddmlib - Adb rejected connection to client '18031': device '27b8dcd4' not found 
+[1249245]   WARN -            #com.android.ddmlib - Adb rejected connection to client '18511': closed 
+[1297418]   WARN -            #com.android.ddmlib - Adb rejected connection to client '18731': closed 
+[1322985]   WARN -            #com.android.ddmlib - Adb rejected connection to client '18962': closed 
+[1369336]   WARN -            #com.android.ddmlib - Adb rejected connection to client '19112': closed 
+[1369347]   WARN -            #com.android.ddmlib - Adb rejected connection to client '19187': closed 
+[1370150]   WARN -                    #InstantRun - IOException while attempting to determine if app is in foreground, assuming app not alive 
+[1370150]   WARN -                    #InstantRun - Force killing app 
+[1411813]   WARN - ols.idea.monitor.DeviceSampler - TimeoutException Read interrupted with immediate timeout via interruption. in ls /proc/net/xt_qtaguid/stats 
+Looking for library 'util'
+Adding paths from jna.library.path: null
+Trying libutil.so
+Found library 'util' at libutil.so
+Looking for library '/home/hadoop/Android/android-studio/lib/libpty/linux/x86_64/libpty.so'
+Adding paths from jna.library.path: null
+Trying /home/hadoop/Android/android-studio/lib/libpty/linux/x86_64/libpty.so
+Found library '/home/hadoop/Android/android-studio/lib/libpty/linux/x86_64/libpty.so' at /home/hadoop/Android/android-studio/lib/libpty/linux/x86_64/libpty.so
+[1719353]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: Location.java 
+[1719354]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: App.java 
+[1754845]   WARN - ols.idea.monitor.DeviceSampler - IOException null in ls /proc/net/xt_qtaguid/stats 
+[2141446]   WARN -            #com.android.ddmlib - Adb rejected connection to client '22174': closed 
+[2162010]   WARN -            #com.android.ddmlib - Adb rejected connection to client '22317': closed 
+[2178716]   WARN -            #com.android.ddmlib - Adb rejected connection to client '22465': closed 
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/hadoop/Documents/workspace-projects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+org.eclipse.m2e.logback.configuration: SLF4J logger factory is not an instance of LoggerContext: org.slf4j.impl.Log4jLoggerFactory
+log4j:WARN No appenders could be found for logger (org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider).
+log4j:WARN Please initialize the log4j system properly.
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/hadoop/Documents/workspace-projects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+org.eclipse.m2e.logback.configuration: SLF4J logger factory is not an instance of LoggerContext: org.slf4j.impl.Log4jLoggerFactory
+log4j:WARN No appenders could be found for logger (org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider).
+log4j:WARN Please initialize the log4j system properly.
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=384m; support was removed in 8.0
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/hadoop/workspace_scala/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.5.1.20150109-1820.xml
+org.eclipse.m2e.logback.configuration: Initializing logback
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/hadoop/Documents/workspace-projects/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+org.eclipse.m2e.logback.configuration: SLF4J logger factory is not an instance of LoggerContext: org.slf4j.impl.Log4jLoggerFactory
+log4j:WARN No appenders could be found for logger (org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider).
+log4j:WARN Please initialize the log4j system properly.
