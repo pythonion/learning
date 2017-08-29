@@ -6,7 +6,8 @@ def grep(search, filename, name=False, line=False):
 
     """ This module is similar to grep in UNIX. It searches a string in a file and
         returns all the lines that search string contains. We can specify filename
-        and linenumber if we want them in the grep results"""
+        and linenumber if we want them in the grep results
+    """
 
     matches = []
     count = 0
@@ -25,7 +26,8 @@ def grep(search, filename, name=False, line=False):
 
 def listfiles(path):
     """ This module lists all the files under the given directory. It recursively goes
-        through all the directories under the given directory and returns a list"""
+        through all the directories under the given directory and returns a list
+    """
     files = []
     __list_dir__(path, files)
     return files
